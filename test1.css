@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(177, 196, 190);
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+select{
+    width: 100px;
+    background-color: bisque;
+    height: 30px;
+}
+header{
+    background-color: rgb(159, 194, 182);
+    border-radius: 1px rgb(108, 113, 112) solid;
+    width: auto;
+    height: auto;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+h1{
+    color: antiquewhite;
+    margin-left: 300px;
+}
+fieldset{
+    display: grid;
+    color: blueviolet;
+    border-color: aqua;
+    background-color: rgba(177, 196, 190,00.5px);
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 12px;
+    border: 0.5px solid blanchedalmond;
+    background-color: antiquewhite;
+}
+input:hover{
+    width: 300px;
+    height: 30px;
+    border-radius: 12px;
+    border: 0.5px solid rgb(47, 216, 64);
+    background-color: rgb(13, 208, 238);
+}
+button{
+    border-radius: 12px;
+    border: 1px solid rebeccapurple;
+    background-color: skyblue;
+    width: 100px;
+
+}
+button:hover{
+    border-radius: 12px;
+    border: 1px solid rgb(197, 131, 87);
+    background-color: rgb(221, 68, 7);
+    width: 100px;
+
+}

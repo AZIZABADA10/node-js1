@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planifier et Suivre Votre Parcours</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Planifier et Suivre Votre Parcours Académique</h1>
+    </header>
+    <main>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+            <div class="form-group">
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="date-naissance">Date de Naissance :</label>
+                <input type="date" id="date-naissance" name="date-naissance" required>
+            </div>
+            <div class="form-group">
+                <label>Sexe :</label>
+                <div>
+                    <input type="radio" id="homme" name="sexe" value="homme" required>
+                    <label for="homme">Homme</label>
+                    <input type="radio" id="femme" name="sexe" value="femme" required>
+                    <label for="femme">Femme</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="ville">Ville :</label>
+                <select id="ville" name="ville" required>
+                    <option value="casablanca">Casablanca</option>
+                    <option value="rabat">Rabat</option>
+                    <option value="marrakech">Marrakech</option>
+                    <option value="fes">Fès</option>
+                    <option value="tanger">Tanger</option>
+                    <option value="safi">Safi</option>
+                    
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ecole">École ou Université :</label>
+                <select id="ecole" name="ecole" required>
+                    <option value="um5">Université Mohammed V</option>
+                    <option value="uh2c">Université Hassan II</option>
+                    <option value="ensias">ENSIAS</option>
+                    <option value="uca">Université Cadi Ayyad</option>
+                    <option value="usmba">Université Sidi Mohamed Ben Abdellah</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Niveau :</label>
+                <div>
+                    <input type="radio" id="bac1" name="niveau" value="bac+1" required>
+                    <label for="bac1">Bac+1</label>
+                    <input type="radio" id="bac2" name="niveau" value="bac+2" required>
+                    <label for="bac2">Bac+2</label>
+                    <input type="radio" id="bac3" name="niveau" value="bac+3" required>
+                    <label for="bac3">Bac+3</label>
+                    <input type="radio" id="bac4" name="niveau" value="bac+4" required>
+                    <label for="bac4">Bac+4</label>
+                    <input type="radio" id="bac5" name="niveau" value="bac+5" required>
+                    <label for="bac5">Bac+5</label>
+                    <input type="radio" id="bac6" name="niveau" value="bac+6" required>
+                    <label for="bac6">Bac+6</label>
+                    <input type="radio" id="bac7" name="niveau" value="bac+7" required>
+                    <label for="bac7">Bac+7</label>
+                </div>
+            </div>
+            <button type="submit">S'inscrire</button>
+        </form>
+    </main>
+    <footer>
+        <a href="mailto:support@exemple.com">Contactez le support</a>
+    </footer>
+</body>
+</html>
